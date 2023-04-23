@@ -83,4 +83,4 @@ font-family: 'Quicksand', sans-serif;
 6. Handle the player clicking the play again button
     - reset the state variables 
     - render the start button 
-    - render the gameboard # project-1-planning
+    - render the gameboard 
