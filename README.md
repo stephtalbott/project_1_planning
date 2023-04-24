@@ -109,3 +109,4 @@ let playerSequence // holds the player sequence
 let gameMove // allows the computer to play a move at intervals
 let gameOver // indicates when the player enters an incorrect sequence
 ``` # project_1_planning
+# project_1_planning
