@@ -84,3 +84,28 @@ font-family: 'Quicksand', sans-serif;
     - reset the state variables 
     - render the start button 
     - render the gameboard 
+
+## Identify the Application's State (data)
+
+```js
+const SQUAREBOARD = ["yellow", "red", "blue", "green"] 
+
+const SQUARECOLORS = {
+    yellow: "255, 255, 0",
+    red: "255, 0, 0",
+    blue: "0, 0, 255", 
+    green: "0, 128, 0"
+}
+
+const AUDIO = {
+    yellow: "http://www.freesound.org/data/previews/42/42106_70164-lq.mp3", 
+    red: "http://www.freesound.org/data/previews/58/58277_634166-lq.mp3", 
+    blue: "http://www.freesound.org/data/previews/327/327666_5632380-lq.mp3", 
+    green: "http://www.freesound.org/data/previews/336/336899_4939433-lq.mp3"
+}
+
+let gameSequence // holds the game pattern sequence 
+let playerSequence // holds the player sequence
+let gameMove // allows the computer to play a move at intervals
+let gameOver // indicates when the player enters an incorrect sequence
+``` 
